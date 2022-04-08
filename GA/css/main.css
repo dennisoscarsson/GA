@@ -1,0 +1,217 @@
+body
+{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial;
+    text-align: center;
+}
+
+.menuContainer
+{
+    background-color:gray;
+    width: 75%;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.loggaCirkel
+{
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 30px;
+}
+
+#stripeLogga1
+{
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 5px;
+    height: 50px;
+}
+
+#stripeLogga2
+{
+    margin-top: 50px;
+    width: 30px;
+    height: 5px;
+    margin-left: -8px;
+
+}
+
+.hamburgerMenu
+{
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stripe
+{
+    background-color: black;
+    width: 40px;
+    height: 5px;
+    margin: 3px;
+}
+
+.linkOptions
+{
+    background-color: #000000CC;
+    width: 100%;/*100vw;*/
+    height: 200%;/*100vh;*/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    /*outline: solid thin pink;*/
+    top: 0px; 
+    left: 0px;
+}
+
+.containerMenu
+{
+    background-color: white;
+    width: 450px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+h1
+{
+    background-color: white;
+    font-size: 24px;
+    color: black;
+}
+
+.back
+{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+/*.ruta
+{
+    background-color: purple;
+    width: 400px;/ *100vw;* /
+    height: 800px;/ *100vh;* /
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+}*/
+
+
+.logga2
+{
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.links
+{
+    background-color: purple;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.tillbaka
+{
+    background-color: azure;
+}
+
+@media only screen and (max-width: 828px) 
+{
+    body 
+    {
+        background-color: purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuContainer
+    {
+        width: 90%;
+        height: 80px;
+    }
+}
+
+nav ul {
+    list-style: none;
+}
+
+.menuItem
+{
+    display:block;
+    padding: 20px;
+    outline-style: solid;
+    font-size: 36px;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    top: 0px;
+    font-weight: 600;   
+    text-shadow: 10px;
+    margin-right: 35px;
+    
+
+}
+
+.menuTitel
+{
+    font-size: 58px;
+    outline: solid thin black;
+}
+
+.malTitel
+{
+    font-size: 58px;
+}
+
+.malText
+{
+    font-size: 25px;
+    width: 80%;
+    font-style: oblique;
+}
+
+.chartBox
+{
+    width: 900px;
+    height: 500px;
+}
+
+.button
+{
+    height: 40px;
+    width: 80px;
+    background-color: grey;
+}
+
+

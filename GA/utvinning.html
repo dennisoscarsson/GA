@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Utvinning
+        </title>
+        <link rel="stylesheet" href="css/main.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!--- <style type="text/css">
+            .chartBox {
+                width: 800px;
+                height: 500px;
+            }
+        </style>
+        --> 
+    </head>
+
+    <body class="infoContainer">
+        
+        <div class="menuContainer" id="menuContainer">
+            <div class="loggaCirkel">
+                <div class="stripe" id="stripeLogga1">  
+                </div>
+                <div class="stripe" id="stripeLogga2">  
+                </div>
+            </div>
+
+            <div class="backLogga">
+            </div>
+            
+            <div class="hamburgerMenu">
+                <div class="stripe">
+                </div>
+
+                <div class="stripe">
+                </div>
+
+                <div class="stripe">
+                </div>
+            <div class="">
+                
+            </div>
+            
+            
+            </div>
+
+            <!--<div class="linkOptions" id="linkOptions">
+                <!- -<h1>Tillbaka</h1>- ->
+                <div class="back" id="back">
+                    blablalba
+                </div>
+            </div>-->
+        </div>
+
+          <nav class="linkOptions" id="linkOptions">
+            <nav class="containerMenu">
+               <h1 class="menuTitel">MENY </h1> <br> 
+                <ul>
+                    
+                    <li><a href="info.html" class="menuItem" id="ruta">Info</a></li>
+                    <li><a href ="parkering.html" class="menuItem">Boka parkering</a></li>
+                    <li><a href="mal.html" class="menuItem">Mål</a></li>
+                    <li><a href="utvinning.html" class="menuItem">Utvinning</a></li>
+                    <li><a href="index.html" class="menuItem">Start sida</a></li>
+                </ul>
+            </nav>
+
+       <!--<div class="linkOptions" id="linkOptions">
+            <h1 id="dache">MENY</h1> <br> 
+            <a href="info.html">
+                <h1 id="ruta">Info</h1>
+            </a>
+
+            <a href="parkering.html">
+             <h1 id="boka">Boka parkering</h1>
+            </a>
+
+            <a href="mal.html">
+                <h1 id="mal">Mål</h1>
+            </a>
+
+            <a href="utvinning.html">
+                <h1 id="utvinning">Utvinning</h1> <br>
+            </a>
+   
+            <h1 id="back">Tillbaka</h1>
+            <div class="back" id="back">
+                blablalba
+            </div>-->
+        </nav>
+
+        
+        <h1 class="malTitel">  Utvinning  </h1>
+
+        <div class="chartBox">
+            <canvas id="myChart" ></canvas>
+        </div>
+
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <div>
+            <input id="myInput" placeholder="Antal Solpaneler(m²) ..." id=""> 
+        </div>
+        
+        <div class="slidecontainer">
+            <input type="range" min="1" max="1000" value="1" class="slider" id="myRange">
+            <p>Value: <span id="range"></span></p>
+        </div>
+        <!--Rätt range-->
+        <!--<input type="range" min="1" max="100" value="50" id="valueSlider">
+        <span id="showRangeValue">50</span> -->
+
+        <button id="line" class="button">Linje </button>     
+        
+        <button id="bar" class="button">Stapel</button> 
+
+        <br> <div class="malText">Här kan du använda dig av vårat diagram för att see hur mycket pengar och energi du sparar på att köpa och använda solpaneler beroende på hur många du köper i m²</div> <br> <br><br>
+       
+        <a href="index.html">
+
+        <div class="links">
+
+            <img src="bilder/pil.jpg" alt="links" style="height: 70px;" style="width: 100px;"> 
+
+            <div>
+                <canvas id="myChart"></canvas>
+            </div>
+                
+        </div>
+
+        <script src="scripts/linkOptions.js">   
+        </script>
+
+        <script src="scripts/diagram.js">
+        </script>
+
+    </body>
+    
+</html>
